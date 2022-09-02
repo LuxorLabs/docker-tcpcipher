@@ -73,13 +73,7 @@ docker compose up -d
 Tcpcipher Config
 ---------------
 Tcpcipher already comes configured to encrypt received data before sending it 
-to the decrypting tcpcipher. The only additional configuration needed is to 
-specify  the user the encrypted messages should be associated with. This is by
-updating `redirectTo = "customer-username"` in `/tcpcipher/config.toml` to the
-customer username to credit messages to. 
-For example if the customer username  to credit shares to is `firebird`, 
-the configuration will be updated to `redirectTo = "firebird"`.
-
+to the decrypting instance.
 
 To switch the miners over to use the tcpcipher, just update the Stratum URL: 
 ```

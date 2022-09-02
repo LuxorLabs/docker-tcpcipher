@@ -3,7 +3,6 @@ remoteaddr = "34.120.99.248:700"
 mode = "encrypter"
 proxyprotocol = true
 encryptionkey = "woVqmgfWfbjlZaRx"
-redirectTo = "customer-username"
 
 [appconfig.log]
 format = "json"
