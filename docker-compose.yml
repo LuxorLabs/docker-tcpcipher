@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  relay:
+    container_name: tcpcipher
+    image: gcr.io/analog-stage-198105/staging:tcpcipher-d6d4f8c2
+    volumes:
+      - ./tcpcipher/config.toml:/tcpcipher.toml
+    ports:
+      - 10500:10000
+      - 8383:8383
+    command: ./tcpcipher --config tcpcipher.toml
+    restart: always

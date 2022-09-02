@@ -1,0 +1,18 @@
+localaddr = "localhost:8383"
+remoteaddr = "34.120.99.248:700"
+mode = "encrypter"
+proxyprotocol = true
+encryptionkey = "woVqmgfWfbjlZaRx"
+redirectTo = "customer-username"
+
+[appconfig.log]
+format = "json"
+level = "info"
+
+[appconfig.telemetry]
+address = "0.0.0.0:10000"
+enablePprof = true
+enableConfigurationLog = true
+
+[appconfig.telemetry.metrics]
+enableMetrics = true
