@@ -1,9 +1,9 @@
-version: "3.7"
+version: "3.9"
 
 services:
-  relay:
+  tcpcipher:
     container_name: tcpcipher
-    image: gcr.io/analog-stage-198105/staging:tcpcipher-d6d4f8c2
+    image: luxorlabs/tcpcipher:v2.46.0
     volumes:
       - ./tcpcipher/config.toml:/tcpcipher.toml
     ports:

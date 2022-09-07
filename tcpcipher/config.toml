@@ -1,5 +1,5 @@
-localaddr = "localhost:8383"
-remoteaddr = "34.120.99.248:700"
+localaddr = "0.0.0.0:8383"
+remoteaddr = "tunnel.luxor.tech:700"
 mode = "encrypter"
 proxyprotocol = true
 encryptionkey = "woVqmgfWfbjlZaRx"
