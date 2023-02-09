@@ -5,6 +5,8 @@ Luxor Tcpcipher
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
+Read this in other languages: [English](README.MD), [简体中文](README.zh-cn.MD)
+
 `luxor-tcpcipher` is a stratum-compatible proxy for establishing encrypted 
 connections between clients and the mining pool.
 
