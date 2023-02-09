@@ -16,7 +16,8 @@ Luxor 加密挖矿程序
 [issues-shield]: https://img.shields.io/github/issues/LuxorLabs/docker-tcpcipher.svg?style=for-the-badge
 [issues-url]: https://github.com/LuxorLabs/docker-tcpcipher/issues
 
-此文档的多语言版本: [English](README.MD), [简体中文](README.zh-cn.MD)
+此文档的多语言版本:
+- [English](README.MD)
 
 ---------------
 ***luxor-tcpcipher*** 是一个用于挖矿的加密挖矿代理程序. 在矿机和矿池之间加入此程序, 可以确保挖矿的数据是加密的. 
